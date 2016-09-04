@@ -16,51 +16,51 @@ The time space features are prefixed with *t* and the frequency space features a
                                     WALKING_DOWNSTAIRS
                                     WALKING_UPSTAIRS
 * "subject_id" 					- The id of a subject of experiment - person who performed activity.
-* "tBodyAcc-mean()-X"				- mean of acceleration
-* "tBodyAcc-mean()-Y" 			
-* "tBodyAcc-mean()-Z" 
-* "fBodyAcc-mean()-X" 
-* "fBodyAcc-mean()-Y" 
-* "fBodyAcc-mean()-Z" 
-* "tBodyAcc-std()-X"				- standard deviation of acceleration
-* "tBodyAcc-std()-Y" 
-* "tBodyAcc-std()-Z" 
-* "fBodyAcc-std()-X" 
-* "fBodyAcc-std()-Y" 
-* "fBodyAcc-std()-Z" 
-* "tGravityAcc-mean()-X"			- mean of gravity acceleration	 
-* "tGravityAcc-mean()-Y" 
-* "tGravityAcc-mean()-Z" 
-* "tGravityAcc-std()-X" 			- standard deviation of gravity acceleration
-* "tGravityAcc-std()-Y" 
-* "tGravityAcc-std()-Z" 
-* "tBodyAccJerk-mean()-X" 		- mean of acceleration jerk
-* "tBodyAccJerk-mean()-Y" 
-* "tBodyAccJerk-mean()-Z" 
-* "tBodyAccJerk-std()-X" 			- standard deviation of acceleration jerk
-* "tBodyAccJerk-std()-Y" 
-* "tBodyAccJerk-std()-Z" 
-* "fBodyAccJerk-std()-X" 
-* "fBodyAccJerk-std()-Y" 
-* "fBodyAccJerk-std()-Z" 
-* "tBodyGyro-mean()-X" 			- mean of gyroscope	
-* "tBodyGyro-mean()-Y" 
-* "tBodyGyro-mean()-Z" 
-* "fBodyGyro-mean()-X" 
-* "fBodyGyro-mean()-Y" 
-* "fBodyGyro-mean()-Z" 
-* "tBodyGyro-std()-X" 			- standard deviation of gyroscope
-* "tBodyGyro-std()-Y" 
-* "tBodyGyro-std()-Z" 
-* "fBodyGyro-std()-X" 
-* "fBodyGyro-std()-Y" 
-* "fBodyGyro-std()-Z" 
-* "tBodyGyroJerk-mean()-X" 		- mean of gyroscope jerk
-* "tBodyGyroJerk-mean()-Y" 
-* "tBodyGyroJerk-mean()-Z" 
-* "tBodyGyroJerk-std()-X" 		- standard deviation of gyroscope jerk
-* "tBodyGyroJerk-std()-Y" 
-* "tBodyGyroJerk-std()-Z" 
+* "tBodyAcc_Mean_X"				- mean of acceleration
+* "tBodyAcc_Mean_Y" 			
+* "tBodyAcc_Mean_Z" 
+* "fBodyAcc_Mean_X" 
+* "fBodyAcc_Mean_Y" 
+* "fBodyAcc_Mean_Z" 
+* "tBodyAcc_Std_X"				- standard deviation of acceleration
+* "tBodyAcc_Std_Y" 
+* "tBodyAcc_Std_Z" 
+* "fBodyAcc_Std_X" 
+* "fBodyAcc_Std_Y" 
+* "fBodyAcc_Std_Z" 
+* "tGravityAcc_Mean_X"			- mean of gravity acceleration	 
+* "tGravityAcc_Mean_Y" 
+* "tGravityAcc_Mean_Z" 
+* "tGravityAcc_Std_X" 			- standard deviation of gravity acceleration
+* "tGravityAcc_Std_Y" 
+* "tGravityAcc_Std_Z" 
+* "tBodyAccJerk_Mean_X" 		- mean of acceleration jerk
+* "tBodyAccJerk_Mean_Y" 
+* "tBodyAccJerk_Mean_Z" 
+* "tBodyAccJerk_Std_X" 			- standard deviation of acceleration jerk
+* "tBodyAccJerk_Std_Y" 
+* "tBodyAccJerk_Std_Z" 
+* "fBodyAccJerk_Std_X" 
+* "fBodyAccJerk_Std_Y" 
+* "fBodyAccJerk_Std_Z" 
+* "tBodyGyro_Mean_X" 			- mean of gyroscope	
+* "tBodyGyro_Mean_Y" 
+* "tBodyGyro_Mean_Z" 
+* "fBodyGyro_Mean_X" 
+* "fBodyGyro_Mean_Y" 
+* "fBodyGyro_Mean_Z" 
+* "tBodyGyro_Std_X" 			- standard deviation of gyroscope
+* "tBodyGyro_Std_Y" 
+* "tBodyGyro_Std_Z" 
+* "fBodyGyro_Std_X" 
+* "fBodyGyro_Std_Y" 
+* "fBodyGyro_Std_Z" 
+* "tBodyGyroJerk_Mean_X" 		- mean of gyroscope jerk
+* "tBodyGyroJerk_Mean_Y" 
+* "tBodyGyroJerk_Mean_Z" 
+* "tBodyGyroJerk_Std_X" 		- standard deviation of gyroscope jerk
+* "tBodyGyroJerk_Std_Y" 
+* "tBodyGyroJerk_Std_Z" 
 * "tBodyAccMag-mean()" 
 * "tBodyAccMag-std()" 
 * "tGravityAccMag-mean()" 

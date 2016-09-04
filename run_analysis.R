@@ -29,10 +29,16 @@ names(train_data)<-c(features$feature_name, "subject_id", "activity_id")
 columns <- c(features[grepl('mean\\(\\)|std\\(\\)', features$feature_name), "feature_name"], 
              'subject_id',
              'activity_name')
+
 data<-merge(
   rbind(test_data, train_data), 
   labels, 
   by.x="activity_id", by.y="id")[,columns]
+
+columns <- gsub('mean\\(\\)' , 'Mean', columns)
+columns <- gsub('std\\(\\)' , 'Std', columns)
+columns <- gsub('-' , '_', columns)
+names(data)<-columns
 
 #summarize and save to file
 summarised_data <- group_by(data, activity_name, subject_id) %>% summarise_each(funs(mean))
