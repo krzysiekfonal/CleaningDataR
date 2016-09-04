@@ -1,3 +1,5 @@
+library(dplyr)
+
 #helpful vars
 data_dir<-paste0(getwd(),"/UCI HAR Dataset/")
 
